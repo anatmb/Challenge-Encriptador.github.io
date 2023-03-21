@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Challengue1</title>
+</head>
+
+<body>
+     <!---LOGO-->
+     <nav class="logo">
+        <img class="imagen"  src="img/Vector.png" alt="logo">
+     
+     </nav>
+    <div class="container">
+       
+        <!---lado izquierdo -->
+        <div class="izquierda">
+            <h1 class="titulo">Encriptar / Desencriptar el texto </h1>
+            <input class="text-input" type="text" id="inputTexto" placeholder="ingrese el texto" > 
+        </div>
+        <!---lado derecho -->
+        <div class="derecha">
+           
+            <img id="imgder" src="img/Muñeco.png" alt="imagen de inicio">
+            <h2 id="texto">Ningun mensaje fue encontrado</h2> 
+            <h2 id="textotitulo">Encriptar/Desencriptar</h2> 
+            <br>
+            <textarea id="texto2" name="name" placeholder="ingrese el texto" rows="8" cols="80"></textarea>
+            <button type="button" name="button" id="btn-copia" onclick="copy()">Copiar</button>
+            
+        </div>
+         <!---botones-->
+        <div class="botones-izquierdo">
+          
+           
+           
+            <p class="reglas"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Solo minusculas y sin acentos</p>
+            <br>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <footer>
+        <h2 class="footer">Elaborado por: Anadeska Meléndez</h2>
+    </footer>
+   
+</body>
+</html>

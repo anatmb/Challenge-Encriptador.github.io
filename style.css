@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+}
+.container{
+    background-color:#E5E5E5;
+    background-image: linear-gradient(to top, rgba(3, 17, 22, 0.904) 0%, rgba(159, 138, 208, 0.733) 100%), url(img/seguridad-digital-colombia.jpg);
+    /*background-image: url(img/seguridad-digital-colombia.jpg);*/
+    margin: auto;
+    width: 960px;
+    height: 500px;
+    padding:5px;
+    overflow: hidden;
+}
+.logo{
+    background-color:#ffffff;
+    margin: auto;
+    width: 960px;
+    height: auto;
+    float: left;
+    margin-left: 18px;
+
+}
+.imagen{
+    width:25px;
+    height:30px;
+    float: inherit;
+    margin-left: 15px;
+    margin-top: 3px;
+    
+}
+.titulo{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    float: inherit;
+    color:#fbfcfd;
+    font-size:35px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.izquierda{
+    float:left;
+    /*background-color: brown;*/
+    width:60%;
+    /*height:auto;*/
+    height:81%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 60%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.derecha{
+    margin-top: 10px;
+    float:right;
+    background-color: rgba(113, 123, 165, 0.822);
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    justify-content:center;
+    border-radius: 15px;
+}
+
+#texto{
+
+ margin-left: 7%;   
+ margin-right: 5%;
+}
+
+#textotitulo{
+  margin-top: 10px;
+  display: none;
+}
+
+#texto2{
+float:left;
+margin-left: 10%;
+width: 80%;
+height:auto;
+border:none;
+outline:none;
+font-size: 15px;
+margin-bottom: 10px;
+
+}
+.derecha>img{
+    width:200px;
+    height:200px;  
+}
+
+#btn-copia{
+    margin-top: 385px;
+    padding:9px;
+    width:60%;
+    height:7%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #fcfbfc;
+    color: rgb(12, 12, 12);
+    display: none;
+}
+
+#btn-copia:hover{
+    padding:9px;
+    width:60%;
+    height:7%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #050505;
+    color: aliceblue;
+    display: none;
+}
+
+.botones-izquierdo{
+    float:left;
+   /* background-color: rgb(76, 95, 87);*/
+    width: 70%;
+    height:19%; 
+}
+
+.botones-izquierdo>p{
+    margin-left: 12%; 
+}
+
+.reglas{
+
+    color: #fafbfc;
+
+}
+#btn-encriptar{
+    padding:2px;
+    width:30%;
+    height:40%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #fcfbfc;
+    color: rgb(12, 12, 12);
+}
+
+#btn-encriptar:hover{
+    padding:2px;
+    width:30%;
+    height:40%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #050505;
+    color: aliceblue;
+}
+#btn-desencriptar{
+    padding:2px;
+    width:30%;
+    height:40%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #fafbfc;
+    color: rgb(12, 12, 12);
+}
+
+#btn-desencriptar:hover{
+    padding:2px;
+    width:30%;
+    height:40%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #050505;
+    color: aliceblue;
+}
+
+.footer{
+    background-color: black;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 960px;
+    height: 30px;
+    padding:5px;
+    color: aliceblue;
+}
+
+
+
+
+  
